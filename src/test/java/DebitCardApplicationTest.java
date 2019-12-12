@@ -18,7 +18,7 @@ class DebitCardApplicationTest {
 
     @BeforeAll
     static void setDriverPath() {
-        System.setProperty("webdriver.chrome.driver", "C:\\Users\\user\\IdeaProjects\\web\\driver\\chromedriver.exe");
+        System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
     }
 
 
